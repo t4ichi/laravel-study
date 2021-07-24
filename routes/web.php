@@ -19,4 +19,18 @@ Route::get('/', function () {
 });
 
 Route::get('hello', 'HelloController@index');
+Route::post('hello', 'HelloController@post');
 
+class test
+{
+    /**
+     * Undocumented function
+     *
+     * @param [type] $a
+     * @return void
+     */
+    public function get($a)
+    {
+        return array();
+    }
+}
